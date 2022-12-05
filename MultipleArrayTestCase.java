@@ -1,8 +1,4 @@
-package com.masai.Input;
-
 import java.util.*;
-
-
 public class Main {
 
 
