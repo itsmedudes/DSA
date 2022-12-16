@@ -6,26 +6,21 @@ public class Main {
 			while(tc-->0){
 			int n = sc.nextInt();
 			int m = sc.nextInt();
+			int[][] matrix = new int[n][m];
 			
-			int[][] matrix = new int[n][n];
-
-				
-		for (int i = 0; i < n; i++)
-	                for (int j = 0; j < n; j++)
-	                    matrix[i][j] = sc.nextInt();
-				
-
-			solve(n,matrix);
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < m; j++)
+                    matrix[i][j] = sc.nextInt();
+			        solve(n,m,matrix);
+			}
 			
-			}	
-
 		}
 		
-		public static void solve(int n, int[][] matrix) {
+		public static void solve(int n,int m,int[][] matrix) {
 			
 
 			for (int i = 0; i < n; i++){
-	            for (int j = 0; j < n; j++)
+	            for (int j = 0; j < m; j++)
 	                System.out.print(matrix[i][j] + " ");
 	                System.out.println();
 	            }
