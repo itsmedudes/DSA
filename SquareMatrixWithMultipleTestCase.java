@@ -1,4 +1,3 @@
-package com.masai.Input;
 
 import java.util.*;
 
@@ -9,11 +8,12 @@ public class Main {
 			int tc = sc.nextInt();
 			while(tc-->0){
 			int n = sc.nextInt();
+			int m = sc.nextInt();
 			
 			int[][] matrix = new int[n][n];
 
 				
-				for (int i = 0; i < n; i++)
+		for (int i = 0; i < n; i++)
 	                for (int j = 0; j < n; j++)
 	                    matrix[i][j] = sc.nextInt();
 				
@@ -35,11 +35,11 @@ public class Main {
 			
 			
 //			2
-//			3
+//			3 4
 //			1 2 3
 //			4 5 6
 //			7 8 9
-//			2
+//			2 4
 //			1 2
 //			3 4
 			
